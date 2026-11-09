@@ -5,15 +5,15 @@
       "url": "https://github.com/Runyth"
     }
   ],
-  "bugs": "https://github.com/Runyth/foundry-module-template/issues",
-  "changelog": "https://github.com/Runyth/foundry-module-template/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/Runyth/template-foundry-module/issues",
+  "changelog": "https://github.com/Runyth/template-foundry-module/blob/master/CHANGELOG.md",
   "compatibility": {
     "maximum": "13",
     "minimum": "13",
     "verified": "13"
   },
   "description": "Production repository template for Runyth Foundry VTT modules.",
-  "download": "https://github.com/Runyth/foundry-module-template/releases/download/v1.0.0/foundry-module-template-v1.0.0.zip",
+  "download": "https://github.com/Runyth/template-foundry-module/releases/download/v1.0.0/foundry-module-template-v1.0.0-mod.zip",
   "esmodules": [
     "scripts/main.js"
   ],
@@ -31,12 +31,12 @@
     }
   ],
   "library": false,
-  "manifest": "https://github.com/Runyth/foundry-module-template/releases/latest/download/module.json",
-  "readme": "https://github.com/Runyth/foundry-module-template/blob/main/README.md",
+  "manifest": "https://github.com/Runyth/template-foundry-module/releases/latest/download/module.json",
+  "readme": "https://github.com/Runyth/template-foundry-module/blob/master/README.md",
   "styles": [
     "styles/runyth-module.css"
   ],
   "title": "Runyth Foundry Module Template",
-  "url": "https://github.com/Runyth/foundry-module-template",
+  "url": "https://github.com/Runyth/template-foundry-module",
   "version": "1.0.0"
 }

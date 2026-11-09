@@ -47,7 +47,7 @@
     "entryMode": "passthrough",
     "kind": "runtime",
     "publicApi": true,
-    "repository": "Runyth/foundry-module-template",
+    "repository": "Runyth/template-foundry-module",
     "systemNeutral": true
   },
   "runtimeKit": {
@@ -55,9 +55,9 @@
   },
   "schemaVersion": 1,
   "template": {
-    "repository": "Runyth/foundry-module-template",
+    "repository": "Runyth/template-foundry-module",
     "source": true,
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "validation": {
     "allowFindings": [],
