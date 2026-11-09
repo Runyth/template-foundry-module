@@ -51,19 +51,20 @@ report before committing.
 | `npm test` | Run Node's built-in test runner |
 | `npm run validate` | Validate manifest, paths, imports, localization, and repository policy |
 | `npm run audit` | Audit deprecated, private, and unsafe Foundry patterns |
-| `npm run build` | Create deterministic install and source ZIPs |
+| `npm run build` | Create deterministic install, source, and documentation ZIPs |
 | `npm run verify:release` | Verify archive roots, versions, contents, and checksums |
 | `npm run check` | Run the complete local quality gate |
 | `npm run version:set -- 1.2.3` | Update all authoritative version locations |
-| `npm run template:sync -- --source ../foundry-module-template` | Apply managed template updates locally |
+| `npm run template:sync -- --source ../template-foundry-module` | Apply managed template updates locally |
 
 ## Release outputs
 
 A build writes these assets under `dist/`:
 
 ```text
-<module-id>-v<version>.zip
-<module-id>-v<version>-source.zip
+<module-id>-v<version>-mod.zip
+<module-id>-v<version>-src.zip
+<module-id>-v<version>-doc.zip
 <module-id>-v<version>-SHA256SUMS.txt
 module.json
 build-report.json
@@ -71,7 +72,8 @@ build-report.json
 
 The installable archive always contains one non-versioned module root. The
 source archive contains one versioned source root and the complete repository,
-excluding generated, secret, and cache paths.
+excluding generated, secret, and cache paths. The documentation archive carries
+the repository's root documentation and `docs/` pages.
 
 ## Design boundaries
 
